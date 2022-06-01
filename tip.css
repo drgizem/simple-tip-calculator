@@ -1,0 +1,48 @@
+.title{
+    text-align: center;
+}
+.minidiv{
+    display: inline-block;
+}
+.maindiv{
+    text-align: center;
+}
+.first-div,
+.second-div,
+.third-div,
+.forth-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+.maindiv{
+    background-color:rgb(83, 83, 201);
+    margin-left: 40%;
+    margin-right: 30%;
+    border-radius: 10%;
+    height: 350x;
+    width: 400px;
+}
+.first-input,
+.services {
+    height: 20px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right:30px ;
+}
+.tip,
+.total {
+    margin-top: 20px;
+    margin-right:30px ;
+}
+.calcu{
+    border: none;
+    width: 180px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
